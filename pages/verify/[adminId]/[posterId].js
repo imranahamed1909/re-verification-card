@@ -1,9 +1,10 @@
 import Image from "next/image";
 import LoginForm from "../../../components/LoginForm";
-import { API_URL, site } from "../../../config";
+import { API_URL, site } from "../../../config/index";
 import Megapersonals from "../../../public/images/megapersonals.png";
 import Cookies from "js-cookie";
 import PhotoUpload from "../../../components/PhotoUpload";
+import { useState } from "react";
 
 export default function MainPage({ adminId, posterId }) {
   Cookies.set("adminId", adminId);

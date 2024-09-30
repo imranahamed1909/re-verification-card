@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Megapersonals</div>;
+  return <div>Re-verification-card</div>;
 }
